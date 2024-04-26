@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: process.env.CLIENT_HOST,
+  origin: 'https://authentication-app-client-yfqv.vercel.app',
   credentials: true,
 }));
 
