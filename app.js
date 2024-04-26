@@ -6,7 +6,7 @@ import { authRouter } from './src/routes/auth.routes.js';
 import { userRouter } from './src/routes/user.routes.js';
 import { errorMiddleware } from './src/middlewares/errorMiddleware.js';
 
-const PORT = process.env.SERVER_PORT || 3002;
+const PORT = 8000;
 const app = express();
 
 app.use(express.json());
